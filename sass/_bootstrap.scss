@@ -364,6 +364,9 @@
   }
 }
 
+/**
+ *  New OSF navbar styling
+ */
 .osf-nav-wrapper {
     /* Overrides the overall navbar color */
     .navbar-inverse {
@@ -453,9 +456,9 @@
         :after {
             position: absolute;
             display: inline-block;
-            border-right: 8px solid transparent;
-            border-bottom: 8px solid $osf-teal-navbar;
-            border-left: 8px solid transparent;
+            border-right: 9px solid transparent;
+            border-bottom: 9px solid $osf-teal-navbar;
+            border-left: 9px solid transparent;
             content: '';
             top: -8px;
             left: 22px;
@@ -504,3 +507,6 @@ button.nav-user-dropdown {
 .logoutLink {
     cursor: pointer;
 }
+/**
+*  End of new OSF Navbar
+*/
